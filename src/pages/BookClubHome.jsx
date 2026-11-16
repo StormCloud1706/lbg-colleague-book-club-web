@@ -41,7 +41,7 @@ export default function BookClubHome({ books }) {
       </div>
       <div className="home__join">
         <p>Join the club to get the invite and updates:</p>
-        <strong>Join the Colleague Book Club Teams channel</strong>
+        <a href="https://teams.microsoft.com/l/channel/19%3AbsyKaHC2GJ2yjyLb6Qx7dPCLtoaFkFdi0vvDXKSuvAg1%40thread.tacv2/General?groupId=d32deb97-4709-4b92-b646-c6174d6f3115&amp;tenantId=3ded2960-214a-46ff-8cf4-611f125e2398">Join the Colleague Book Club Teams channel</a>
       </div>
     </section>
   )

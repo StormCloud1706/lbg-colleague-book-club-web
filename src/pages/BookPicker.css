@@ -8,3 +8,12 @@
 .picker__roll { width: 100%; margin-top: .75rem; }
 .picker__warnings { white-space: pre-line; background: rgba(185, 104, 71, .08); border-left: 3px solid var(--bookclub-terracotta); border-radius: 0 5px 5px 0; padding: .6rem .75rem; margin-top: 1rem; font-size: .8rem; }
 .picker__message { margin-top: .75rem; }
+.picker__card--rolled { animation: picker-roll .45s ease-out; }
+@keyframes picker-roll {
+  0% { opacity: .35; transform: translateY(8px) scale(.97); }
+  65% { opacity: 1; transform: translateY(-3px) scale(1.01); }
+  100% { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .picker__card--rolled { animation: none; }
+}

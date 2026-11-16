@@ -11,17 +11,20 @@ function pickOne(books, excluded) {
 export default function BookPicker({ books }) {
   const suggestions = books.filter((book) => book.status === 'suggested')
   const [picked, setPicked] = useState([null, null, null])
+  const [rolls, setRolls] = useState([0, 0, 0])
   const hasPicked = picked.some(Boolean)
   function rollAll() {
     const next = []
     for (let i = 0; i < 3; i++) next.push(pickOne(suggestions, next.filter(Boolean).map((book) => book.id)))
     setPicked(next)
+    setRolls((counts) => counts.map((count) => count + 1))
   }
   function rollOne(index) {
     const otherIds = picked.filter((book, i) => i !== index && book).map((book) => book.id)
     const currentId = picked[index]?.id
     const next = pickOne(suggestions, [...otherIds, currentId]) || pickOne(suggestions, otherIds)
     setPicked(picked.map((book, i) => i === index ? next : book))
+    setRolls((counts) => counts.map((count, i) => i === index ? count + 1 : count))
   }
   return (
     <section className="picker">
@@ -32,7 +35,7 @@ export default function BookPicker({ books }) {
       <div className="cards picker__cards">
         {picked.map((book, index) => (
           <div className="picker__option" key={index}>
-            <article className={`card card--${['cream', 'olive', 'sand'][index]} ${book ? '' : 'card--empty'}`}>
+            <article key={rolls[index]} className={`card card--${['cream', 'olive', 'sand'][index]} ${book ? 'picker__card--rolled' : 'card--empty'}`}>
               <p className="card__label">Option {index + 1}</p>
               {book ? <>
                 <h2>{book.title}</h2>

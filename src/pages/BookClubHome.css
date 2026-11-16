@@ -6,4 +6,5 @@
 .home__rating { display: flex; align-items: center; flex-wrap: wrap; gap: .3rem; font-size: .8rem; font-weight: 700; margin-top: 1rem; }
 .home__rating .rating { margin: 0; flex-direction: row-reverse; }
 .home__join { margin-top: 2rem; padding: 1rem; border: 1px dashed #dba889; border-radius: 10px; text-align: center; background: #fdf5e8; color: var(--bookclub-ink-soft); }
-.home__join strong { display: block; margin-top: .5rem; color: var(--bookclub-terracotta); }
+.home__join a { display: inline-block; margin-top: .5rem; color: var(--bookclub-terracotta); font-weight: 700; text-decoration: none; }
+.home__join a:hover { text-decoration: underline; }
