@@ -19,6 +19,18 @@ Changes made through the app are saved **only in that browser on that device** u
 
 The home page meeting details are copied from the screenshot and should be updated in `src/pages/BookClubHome.jsx` when they change. The Teams link opens the club's channel; members may need to sign in and have access to it.
 
+## To-dos
+
+- [ ] Get book covers from an API.
+- [ ] Tidy and check the imported reading list data.
+- [ ] Add a database so reading list changes are saved and shared between members.
+- [ ] Make book picker cards evenly sized and include covers from the API.
+- [ ] Make the book picker cards downloadable for Teams posts.
+- [ ] Update the homepage tiles automatically when the reading list changes and when review collection is complete.
+- [ ] Add a review function and show reviews in the past-read book details.
+- [ ] Add monthly voting so members can vote for their three favourite books.
+- [ ] Check the three picked books for similar genres and automatically re-roll until the choices are different enough before showing them.
+
 ## Hosting later
 
 `npm run build` creates static files in `dist`. A static host must serve `index.html` for the app's routes (such as `/reading-list`) as well as the root URL. Hosting alone will not make browser-saved changes shared.
