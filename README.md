@@ -1,28 +1,63 @@
 # Colleague Book Club
 
-A standalone Vite and React recreation of the book club app.
+A book club app built for a community I run, and a learning project that is growing beyond its original brief.
 
-## Run locally
+## The story behind the project
+
+I developed the original app as my final project for a learning and development scheme at work. I also run the book club at my workplace hub, so I wanted to build something useful for the people taking part: one place to collect suggestions, see what we're reading and look back at the books we've discussed.
+
+The original book club app sat within a larger group project. This repository is a standalone rebuild, recreated from screenshots and the exported reading list.
+
+Now that the scheme has finished, I intend to keep developing the app and publish it for our book club to use. This repository documents that progression, from recreating the original experience to adding shared data, reviews and monthly voting.
+
+## What it does today
+
+- **Club homepage** with the current read, next meeting and previous read.
+- **Reading list** with search, genre filters, sorting and pagination.
+- **Book management** for adding, editing and removing books.
+- **Past reads** with club ratings, descriptions and content warnings.
+- **Random book picker** with three distinct suggestions, individual re-rolls and an animated reveal.
+- **Browser storage** so changes survive a refresh on the same browser and device.
+- **Responsive layouts** and reduced-motion support for the picker animation.
+
+## Built with
+
+React, Vite, React Router, CSS, Lucide icons and the browser's localStorage API.
+
+## Where it's heading
+
+The next stage is to turn the standalone app into a shared space for the club:
+
+- Book covers from an API and a tidier reading list.
+- Shared database storage.
+- Evenly sized picker cards that can be downloaded for Teams posts.
+- Member reviews and automatically updated homepage tiles.
+- Monthly voting and more varied genre choices in the picker.
+
+See [TODO.md](./TODO.md) for the working checklist. Feature branches and incremental commits record the development as it progresses.
+
+## Running locally
+
+You'll need a Node.js version supported by Vite and npm.
 
 ```sh
 npm install
 npm run dev
 ```
 
-Open the address printed by Vite. Run `npm run lint` and `npm run build` to check the app.
+Open the local address printed by Vite.
 
-## Books and storage
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run lint` | Check the code with Oxlint |
+| `npm run build` | Create a production build in `dist` |
+| `npm run preview` | Preview the production build locally |
 
-The starting list is in `src/data/books.json`, imported from the supplied reading list. The paste contained 85 suggestions, 13 past reads and one current read; it differs slightly from the screenshots (which showed 82 suggestions). Some column boundaries were unclear in the pasted text, so check the imported genres and content warnings against the original where possible.
+## Current limitations
 
-Changes made through the app are saved **only in that browser on that device** using localStorage. They are not shared with other club members and can be lost when browser data is cleared. There is no backend or database. If the browser cannot save or read the list, the app displays an error.
+This is a work in progress, not yet a shared, hosted service. Book changes are saved only in the browser where they were made; they aren't synchronised between members and may be lost if browser data is cleared. There is no backend, member authentication or database yet.
 
-The home page meeting details are copied from the screenshot and should be updated in `src/pages/BookClubHome.jsx` when they change. The Teams link opens the club's channel; members may need to sign in and have access to it.
+The bundled reading list contains 99 books: 85 suggestions, 13 past reads and one current read. It was imported from a text export, and checking and tidying that data is part of the planned work.
 
-## Upcoming work
-
-See [TODO.md](./TODO.md) for the feature backlog and smaller tasks.
-
-## Hosting later
-
-`npm run build` creates static files in `dist`. A static host must serve `index.html` for the app's routes (such as `/reading-list`) as well as the root URL. Hosting alone will not make browser-saved changes shared.
+Meeting details are currently maintained in the app rather than through an editing screen. Hosting is planned; a static deployment will need to serve `index.html` for client-side routes as well as the homepage.
