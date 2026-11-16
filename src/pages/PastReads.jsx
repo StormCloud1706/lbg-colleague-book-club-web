@@ -1,3 +1,5 @@
-export default function PastReads() {
-  return <h1 className="bookclub-page__title">Past Reads</h1>
+import BookList from '../components/BookList.jsx'
+
+export default function PastReads({ library }) {
+  return <BookList library={library} status="read" />
 }

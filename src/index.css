@@ -114,3 +114,11 @@ button {
   font-size: 2.6rem;
   line-height: 1.15;
 }
+
+.storage-error {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: 1px solid var(--bookclub-terracotta);
+  border-radius: 6px;
+  background: var(--bookclub-cream);
+}

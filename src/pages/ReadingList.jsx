@@ -1,3 +1,5 @@
-export default function ReadingList() {
-  return <h1 className="bookclub-page__title">Reading List</h1>
+import BookList from '../components/BookList.jsx'
+
+export default function ReadingList({ library }) {
+  return <BookList library={library} status="suggested" />
 }
