@@ -3,17 +3,51 @@
 .picker__option .card { min-height: 16.5rem; }
 .card--empty { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
 .card--empty .card__label { margin-bottom: .2rem; }
-.picker__question { color: var(--bookclub-terracotta); font: bold 4.5rem/1 var(--font-heading); }
+.picker__question { color: var(--bookclub-terracotta); font: bold 4.5rem/1 var(--font-heading); animation: question-bob 2.4s ease-in-out infinite; }
 .picker__waiting { color: var(--bookclub-olive); margin-top: .7rem; }
 .picker__roll { width: 100%; margin-top: .75rem; }
 .picker__warnings { white-space: pre-line; background: rgba(185, 104, 71, .08); border-left: 3px solid var(--bookclub-terracotta); border-radius: 0 5px 5px 0; padding: .6rem .75rem; margin-top: 1rem; font-size: .8rem; }
 .picker__message { margin-top: .75rem; }
-.picker__card--rolled { animation: picker-roll .45s ease-out; }
+.picker__option .card { position: relative; overflow: hidden; }
+.picker__dice { display: flex; align-items: center; gap: .35rem; margin: .65rem 0 1rem; color: var(--bookclub-terracotta); }
+.picker__dice svg { width: 2.7rem; height: 2.7rem; animation: dice-tumble .65s ease-in-out infinite alternate; }
+.picker__dice svg + svg { color: var(--bookclub-olive); animation-direction: alternate-reverse; animation-delay: -.3s; }
+.picker__preview { min-height: 4.5rem; }
+.picker__preview h2 { overflow-wrap: anywhere; }
+.picker__sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.picker__card--rolled { animation: picker-roll .55s cubic-bezier(.2, .8, .2, 1); }
+.picker__confetti { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.picker__confetti i { position: absolute; top: 12%; left: 50%; width: 7px; height: 10px; border-radius: 2px; background: var(--bookclub-terracotta); opacity: 0; animation: confetti .9s ease-out forwards; }
+.picker__confetti i:nth-child(3n) { background: var(--bookclub-olive); }
+.picker__confetti i:nth-child(3n + 1) { background: var(--bookclub-sand); border-radius: 50%; }
+.picker__confetti i:nth-child(1) { --x: -120px; --y: 100px; --rotation: -150deg; }
+.picker__confetti i:nth-child(2) { --x: -95px; --y: 155px; --rotation: 200deg; }
+.picker__confetti i:nth-child(3) { --x: -65px; --y: 75px; --rotation: -230deg; }
+.picker__confetti i:nth-child(4) { --x: -35px; --y: 180px; --rotation: 170deg; }
+.picker__confetti i:nth-child(5) { --x: -12px; --y: 120px; --rotation: -190deg; }
+.picker__confetti i:nth-child(6) { --x: 20px; --y: 165px; --rotation: 210deg; }
+.picker__confetti i:nth-child(7) { --x: 48px; --y: 85px; --rotation: -180deg; }
+.picker__confetti i:nth-child(8) { --x: 75px; --y: 150px; --rotation: 250deg; }
+.picker__confetti i:nth-child(9) { --x: 105px; --y: 95px; --rotation: -210deg; }
+.picker__confetti i:nth-child(10) { --x: 125px; --y: 175px; --rotation: 180deg; }
+@keyframes question-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes dice-tumble {
+  from { transform: translateY(3px) rotate(-25deg) scale(.92); }
+  to { transform: translateY(-6px) rotate(35deg) scale(1.05); }
+}
 @keyframes picker-roll {
-  0% { opacity: .35; transform: translateY(8px) scale(.97); }
-  65% { opacity: 1; transform: translateY(-3px) scale(1.01); }
+  0% { opacity: .5; transform: scale(.9); }
+  60% { opacity: 1; transform: scale(1.035); }
   100% { opacity: 1; transform: none; }
 }
+@keyframes confetti {
+  0% { opacity: 1; transform: translate(0, 0) rotate(0); }
+  70% { opacity: 1; }
+  100% { opacity: 0; transform: translate(var(--x), var(--y)) rotate(var(--rotation)); }
+}
 @media (prefers-reduced-motion: reduce) {
-  .picker__card--rolled { animation: none; }
+  .picker__question, .picker__dice svg, .picker__card--rolled, .picker__confetti i { animation: none; }
 }
