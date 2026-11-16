@@ -12,7 +12,7 @@ const LINKS = [
 export default function Sidebar() {
   return (
     <aside className="bookclub-sidebar">
-      <img className="bookclub-sidebar__image" src={logo} alt="Colleague Book Club" width="140" height="140" />
+      <img className="bookclub-sidebar__image" src={logo} alt="LBG Colleague Book Club" width="140" height="140" />
       <nav className="bookclub-sidebar__nav" aria-label="Book club">
         {LINKS.map(({ to, label }) => (
           <NavLink key={to} to={to} end className="bookclub-sidebar__link">
