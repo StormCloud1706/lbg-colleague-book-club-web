@@ -1,0 +1,11 @@
+.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.card { min-width: 0; border: 1px solid rgba(90, 53, 41, .12); border-top: 6px solid; border-radius: 18px 8px 18px 8px; padding: 1.25rem; box-shadow: 5px 5px 0 rgba(185, 104, 71, .1); }
+.card--cream { background: #fff3df; border-top-color: #b96847; }
+.card--olive { background: #f1f0df; border-top-color: #707348; }
+.card--sand { background: #f8eadb; border-top-color: #c49c75; }
+.card__label { color: var(--bookclub-olive); font-size: .88rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; margin-bottom: .75rem; }
+.card h2 { font-size: 1.35rem; line-height: 1.12; }
+.card__author { color: var(--bookclub-olive); font-size: .9rem; font-weight: 700; margin-top: .5rem; }
+.card__genre { color: var(--bookclub-olive); font-size: .88rem; margin-top: .35rem; }
+.card__notes { color: var(--bookclub-ink-soft); font-size: .9rem; margin-top: 1.25rem; }
+@media (max-width: 600px) { .cards { grid-template-columns: 1fr; } }

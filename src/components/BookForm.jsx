@@ -32,8 +32,8 @@ export default function BookForm({ book, status, onSave, onClose }) {
         </div>
         <form onSubmit={submit}>
           <div className="book-form__grid">
-            <label>Title <input autoFocus required name="title" value={form.title} onChange={update} /></label>
-            <label>Author <input required name="author" value={form.author} onChange={update} /></label>
+            <label>Title <input autoFocus required pattern=".*\S.*" title="Enter a title" name="title" value={form.title} onChange={update} /></label>
+            <label>Author <input required pattern=".*\S.*" title="Enter an author" name="author" value={form.author} onChange={update} /></label>
             <label>Genre <input name="genre" value={form.genre} onChange={update} /></label>
             <label>Secondary genre <input name="secondaryGenre" value={form.secondaryGenre} onChange={update} /></label>
             <label>Status
