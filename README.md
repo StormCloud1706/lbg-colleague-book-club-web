@@ -17,7 +17,7 @@ The starting list is in `src/data/books.json`, imported from the supplied readin
 
 Changes made through the app are saved **only in that browser on that device** using localStorage. They are not shared with other club members and can be lost when browser data is cleared. There is no backend or database. If the browser cannot save or read the list, the app displays an error.
 
-The home page meeting details are copied from the screenshot and should be updated in `src/pages/BookClubHome.jsx` when they change. The Teams channel text is not a link yet because the channel URL was not supplied.
+The home page meeting details are copied from the screenshot and should be updated in `src/pages/BookClubHome.jsx` when they change. The Teams link opens the club's channel; members may need to sign in and have access to it.
 
 ## Hosting later
 
