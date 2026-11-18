@@ -174,7 +174,7 @@
     "genre": "Fiction",
     "secondaryGenre": "",
     "contentWarnings": "Violence, mental health, Child neglect",
-    "notes": "A tradwife influencer wakes up in the 1800s",
+    "notes": "A traditional-lifestyle influencer wakes in a disturbing version of her picture-perfect life, where her family seems familiar but something is terribly wrong.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -385,12 +385,12 @@
   },
   {
     "id": "i-will-find-you",
-    "title": "I will find you",
+    "title": "I Will Find You",
     "author": "Harlan Coben",
     "genre": "Thriller",
     "secondaryGenre": "Mystery",
     "contentWarnings": "",
-    "notes": "I Will Find You follows a man wrongfully imprisoned for murdering his young son — until shocking new evidence suggests the boy might still be alive. Determined to uncover the truth, he risks everything in a desperate race to find the child before time runs out.",
+    "notes": "Imprisoned for his son's murder, David sees a photograph suggesting the boy may still be alive and risks everything to uncover the truth.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -414,7 +414,7 @@
     "genre": "Science Fiction",
     "secondaryGenre": "Classic / Speculative",
     "contentWarnings": "",
-    "notes": "Influential sci-fi exploring AI, ethics, and human-machine relationships.",
+    "notes": "Through interconnected stories about robots and their human creators, Isaac Asimov explores the dilemmas that arise from his Three Laws of Robotics.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -450,7 +450,7 @@
     "genre": "Historical Fiction",
     "secondaryGenre": "Adventure",
     "contentWarnings": "",
-    "notes": "Set during the French and Indian War; explores identity, loyalty, and conflict.",
+    "notes": "During the French and Indian War, frontier scout Hawkeye and his Mohican companions escort two sisters through a dangerous and contested wilderness.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -462,7 +462,7 @@
     "genre": "Fantasy",
     "secondaryGenre": "Mystery",
     "contentWarnings": "",
-    "notes": "A witty and imaginative novel set in an alternate reality where literature is taken very seriously.",
+    "notes": "In an alternate England where literature is taken very seriously, detective Thursday Next must rescue Jane Eyre after a criminal steals her from the novel.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -474,7 +474,7 @@
     "genre": "Memoir",
     "secondaryGenre": "Biography",
     "contentWarnings": "Child neglect, alcoholism",
-    "notes": "A powerful memoir of resilience and unconventional upbringing in a deeply dysfunctional family.",
+    "notes": "Jeannette Walls recounts her unconventional childhood, moving across America with her family while facing poverty, instability and the search for a different life.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -510,19 +510,19 @@
     "genre": "Thriller",
     "secondaryGenre": "Sci-Fi / Romance",
     "contentWarnings": "",
-    "notes": "DNA matchmaking leads to deadly consequences.",
+    "notes": "A DNA test promises to find each person's perfect partner, but five newly matched people discover that their supposed soulmates have secrets.",
     "status": "read",
     "rating": 4.14,
     "dateRead": "2026-05-28"
   },
   {
     "id": "what-lies-between-us",
-    "title": "What lies between us",
+    "title": "What Lies Between Us",
     "author": "John Marrs",
     "genre": "Thriller",
     "secondaryGenre": "Suspense",
     "contentWarnings": "Abuse",
-    "notes": "What Lies Between Us follows a deeply twisted mother‑daughter relationship built on secrets, lies, and years of emotional manipulation — all contained within the walls of one house where nothing is as it seems.",
+    "notes": "Nina and Maggie share a house full of secrets, where their shared meals end with Nina returning Maggie to a locked room upstairs.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -546,7 +546,7 @@
     "genre": "Sci-Fi / Literary",
     "secondaryGenre": "Time Travel / Romance",
     "contentWarnings": "",
-    "notes": "A civil servant falls for a time-travelling Victorian explorer.",
+    "notes": "A civil servant is assigned to help a Victorian explorer adjust to modern life after time travel brings him into her world.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -577,12 +577,12 @@
   },
   {
     "id": "the-remains-of-the-day",
-    "title": "The remains of the day",
+    "title": "The Remains of the Day",
     "author": "Kazuo Ishiguro",
     "genre": "Literary Fiction",
     "secondaryGenre": "Historical Fiction",
     "contentWarnings": "",
-    "notes": "The Remains of the Day follows Stevens, a devoted English butler in 1956 on a countryside trip to visit former housekeeper Miss Kenton. As he travels, he recalls decades of service at Darlington Hall, navigating loyalty, dignity, and missed personal connections amid political upheaval.",
+    "notes": "On a countryside journey, an ageing English butler reflects on his years of service, his loyalty to his employer and a missed chance at love.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -605,8 +605,8 @@
     "author": "Karin Slaughter",
     "genre": "Thriller",
     "secondaryGenre": "Psychological",
-    "contentWarnings": "Graphic Violence, abuse",
-    "notes": "Sisters uncover dark truths about a missing sibling.",
+    "contentWarnings": "Graphic violence, abuse",
+    "notes": "Estranged sisters Claire and Lydia revisit their sister's disappearance after another tragedy, uncovering disturbing secrets that connect their family's past and present.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
