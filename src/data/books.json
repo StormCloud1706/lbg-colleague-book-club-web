@@ -258,7 +258,7 @@
     "genre": "Literary Fiction",
     "secondaryGenre": "Existential Fiction",
     "contentWarnings": "",
-    "notes": "A philosophical novel about waiting, purpose, and the passage of time in a remote outpost.",
+    "notes": "Posted to a remote fortress, Lieutenant Drogo spends his career waiting for an enemy attack and a chance to prove himself.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -342,7 +342,7 @@
     "genre": "Classic Fiction",
     "secondaryGenre": "Romance / Psychological",
     "contentWarnings": "",
-    "notes": "A dreamy, introspective tale of fleeting love and isolation in St. Petersburg.",
+    "notes": "A lonely dreamer meets Nastenka on a walk through St Petersburg, beginning a brief friendship as they share their hopes and stories.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -438,7 +438,7 @@
     "genre": "Science Fiction",
     "secondaryGenre": "Dystopian Fiction",
     "contentWarnings": "",
-    "notes": "A philosophical dystopian novel about isolation, identity, and the human condition.",
+    "notes": "A girl grows up imprisoned underground with thirty-nine women, none knowing why they are held or what awaits them beyond their cage.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -558,7 +558,7 @@
     "genre": "Non-Fiction",
     "secondaryGenre": "Biography",
     "contentWarnings": "",
-    "notes": "Memoir of the authors time running a coffee plantation in Kenya in the early 20th Century.",
+    "notes": "Karen Blixen recalls her years on a coffee plantation in colonial Kenya, reflecting on the landscape and the people she encountered.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -570,7 +570,7 @@
     "genre": "Historical Fiction",
     "secondaryGenre": "Family Drama",
     "contentWarnings": "",
-    "notes": "A fictionalised account of John Wilkes Booth’s family and the forces that shaped him.",
+    "notes": "Through the lives of the Booth siblings, this historical novel follows an American family whose story becomes intertwined with Abraham Lincoln's assassination.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -630,7 +630,7 @@
     "genre": "Fantasy",
     "secondaryGenre": "Feminism",
     "contentWarnings": "",
-    "notes": "Speculative fiction exploring women's transformation into dragons as rebellion.",
+    "notes": "In an alternate 1950s America, Alex grows up amid a mass transformation of women into dragons, an event her family refuses to discuss.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -673,12 +673,12 @@
   },
   {
     "id": "the-three-body-problem",
-    "title": "The Three Body Problem",
+    "title": "The Three-Body Problem",
     "author": "Liu Cixin",
     "genre": "Science Fiction",
     "secondaryGenre": "Hard Sci-Fi",
     "contentWarnings": "",
-    "notes": "A mind-bending sci-fi novel exploring first contact with an alien civilization and complex physics.",
+    "notes": "During China's Cultural Revolution, astrophysicist Ye Wenjie becomes involved in a secret project searching for extraterrestrial life, with consequences for humanity.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -846,7 +846,7 @@
     "genre": "Dystopian Fiction",
     "secondaryGenre": "Political / Literary",
     "contentWarnings": "",
-    "notes": "Booker Prize-winning novel exploring authoritarianism in a near-future Ireland.",
+    "notes": "As an authoritarian government takes hold in Ireland, Eilish struggles to protect her family after her husband disappears following a protest.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
