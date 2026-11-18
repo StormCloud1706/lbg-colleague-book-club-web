@@ -590,11 +590,11 @@
   {
     "id": "station-eleven",
     "title": "Station Eleven",
-    "author": "Emily st John Mandel",
+    "author": "Emily St John Mandel",
     "genre": "Sci-Fi / Literary",
     "secondaryGenre": "Dystopian Fiction",
     "contentWarnings": "",
-    "notes": "Station Eleven depicts survivors navigating a world reshaped by a devastating flu, following a troupe of traveling performers as they preserve art and humanity amid dangers like a mysterious cult.",
+    "notes": "After a deadly flu devastates the world, Kirsten travels between scattered settlements with a troupe performing Shakespeare for the survivors they meet.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -617,8 +617,8 @@
     "author": "Kazuo Ishiguro",
     "genre": "Science Fiction",
     "secondaryGenre": "Literary Fiction",
-    "contentWarnings": "Illness, grief, mortality",
-    "notes": "Klara, an Artificial Friend with exceptional observational abilities, is chosen by a teenager and tries to understand human love, hope, and what it means to be replaceable.",
+    "contentWarnings": "",
+    "notes": "Klara, an observant Artificial Friend, waits in a store to be chosen while reflecting on the people around her and the meaning of love.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -642,7 +642,7 @@
     "genre": "Historical Fiction",
     "secondaryGenre": "War Drama",
     "contentWarnings": "",
-    "notes": "A moving story of two sisters in Nazi-occupied France and their fight for survival and resistance.",
+    "notes": "In wartime France, sisters Vianne and Isabelle face different dangers as their courage, choices and bond are tested by the German occupation.",
     "status": "read",
     "rating": 3.67,
     "dateRead": "2026-07-02"
@@ -654,19 +654,19 @@
     "genre": "Thriller",
     "secondaryGenre": "Mystery",
     "contentWarnings": "",
-    "notes": "Suspenseful debut exploring secrets, ambition, and betrayal.",
+    "notes": "Returning to Princeton for her reunion, Maya learns her sister has died and begins questioning what happened and the secrets of an elite club.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
   },
   {
     "id": "then-she-was-gone",
-    "title": "Then she was gone",
+    "title": "Then She Was Gone",
     "author": "Lisa Jewell",
     "genre": "Thriller",
     "secondaryGenre": "Mystery",
-    "contentWarnings": "Child abuse,\nSexual Assault,\nSuicide",
-    "notes": "Then She Was Gone follows Laurel, a mother who has never recovered from her teenage daughter Ellie’s disappearance ten years earlier, but a new relationship and a little girl who eerily resembles Ellie force her to revisit the unanswered questions of the past.",
+    "contentWarnings": "Child abuse, sexual assault, suicide",
+    "notes": "Ten years after her teenage daughter vanishes, Laurel meets a man whose young daughter bears an uncanny resemblance to the missing girl.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -702,7 +702,7 @@
     "genre": "Thriller",
     "secondaryGenre": "Mystery",
     "contentWarnings": "",
-    "notes": "A group of friends snowed in at a remote lodge — one ends up dead.",
+    "notes": "Old friends reunite at a remote Scottish lodge for New Year, but the celebration turns deadly when one of the group is murdered.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -726,7 +726,7 @@
     "genre": "Thriller",
     "secondaryGenre": "Crime",
     "contentWarnings": "",
-    "notes": "A twisted killer forces victims to choose who lives.",
+    "notes": "Detective Helen Grace investigates a series of disappearances as pairs of captives are imprisoned together and forced to decide who will survive.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -738,7 +738,7 @@
     "genre": "Fantasy",
     "secondaryGenre": "Mythology",
     "contentWarnings": "",
-    "notes": "A retelling of the mythological figure Circe, focusing on her life and powers.",
+    "notes": "Circe, daughter of the sun god Helios, discovers her powers of witchcraft and is banished to an island where she encounters legendary figures.",
     "status": "read",
     "rating": 4.13,
     "dateRead": "2026-03-26"
@@ -750,7 +750,7 @@
     "genre": "Historical Fiction",
     "secondaryGenre": "Family / Tragedy",
     "contentWarnings": "",
-    "notes": "A reimagining of Shakespeare’s son and the grief that inspired Hamlet.",
+    "notes": "In Elizabethan England, Agnes builds a family with a Latin tutor, but their lives are changed forever when their young son falls ill.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
