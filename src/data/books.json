@@ -150,7 +150,7 @@
     "genre": "Historical Fiction",
     "secondaryGenre": "Feminism / Humour",
     "contentWarnings": "Sexual assault",
-    "notes": "A brilliant chemist challenges 1960s gender norms.",
+    "notes": "In the 1960s, chemist Elizabeth Zott becomes an unlikely television cooking star, using her scientific approach to challenge expectations of women.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -181,12 +181,12 @@
   },
   {
     "id": "the-nowhere-child",
-    "title": "The nowhere child",
+    "title": "The Nowhere Child",
     "author": "Christian White",
     "genre": "Thriller",
     "secondaryGenre": "Mystery",
-    "contentWarnings": "Child abduction",
-    "notes": "The Nowhere Child follows a woman who discovers she may be connected to an infamous decades‑old kidnapping case, sending her back to a small Australian town where long‑buried secrets, lies, and dangerous obsessions resurface. It’s atmospheric, character‑driven, and full of tension.",
+    "contentWarnings": "",
+    "notes": "A Melbourne woman learns she may have been abducted as a child and travels to Kentucky to uncover the truth about her past.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -234,7 +234,7 @@
     "genre": "Psychological Thriller",
     "secondaryGenre": "Romance",
     "contentWarnings": "",
-    "notes": "Dark, twisty page-turner with romantic tension and disturbing secrets.",
+    "notes": "Hired to finish an injured author's novels, Lowen uncovers a secret manuscript that reveals disturbing truths about the author's family.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
