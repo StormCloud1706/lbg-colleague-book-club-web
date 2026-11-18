@@ -3,7 +3,7 @@
 Each feature gets its own branch as we work through it.
 
 ## Reading list tidy-up
-- [ ] Correct titles, authors and any import mistakes.
+- [x] Tidy titles, authors, summaries and content warnings.
 - [ ] Standardise genres and check for duplicates.
 
 ## Book covers
