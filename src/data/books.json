@@ -246,7 +246,7 @@
     "genre": "Dystopian Fiction",
     "secondaryGenre": "Post-Apocalyptic",
     "contentWarnings": "Cannibalism, suicide",
-    "notes": "A bleak but tender journey of a father and son through a devastated America.",
+    "notes": "A father and son journey through a devastated America, searching for food and safety while avoiding the dangers that stalk the roads.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -265,12 +265,12 @@
   },
   {
     "id": "i-capture-the-castle",
-    "title": "I Capture The Castle",
+    "title": "I Capture the Castle",
     "author": "Dodie Smith",
     "genre": "Fiction",
     "secondaryGenre": "Coming-of-Age",
     "contentWarnings": "",
-    "notes": "A charming and poignant story of a young girl's journey to adulthood in 1930s England.",
+    "notes": "Cassandra chronicles life with her eccentric, impoverished family in a crumbling English castle, where new neighbours bring the possibility of change and romance.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -282,7 +282,7 @@
     "genre": "Contemporary Fiction",
     "secondaryGenre": "Mystery",
     "contentWarnings": "",
-    "notes": "A young woman named Vincent is drawn into the glamorous world of financier Jonathan Alkaitis, only to find herself caught in the aftermath of a massive financial fraud that devastates countless lives. Blending mystery, literary fiction, and psychological drama, the novel examines how people are haunted by their choices, their losses, and the alternate versions of their lives that never came to be",
+    "notes": "Hotel bartender Vincent enters the world of financier Jonathan Alkaitis, whose fraudulent scheme destroys fortunes and connects lives long after its collapse.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -294,7 +294,7 @@
     "genre": "Contemporary Fiction",
     "secondaryGenre": "Historical Fiction",
     "contentWarnings": "",
-    "notes": "A heartwarming tale of friendship, community, and Southern charm across generations.",
+    "notes": "Evelyn befriends the elderly Mrs Threadgoode, whose stories of Idgie, Ruth and their Alabama café bring a bygone community to life.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -349,12 +349,12 @@
   },
   {
     "id": "one-hundred-years-of-solitude",
-    "title": "One hundred years of solitude",
-    "author": "Gabriel Garcia Marquez",
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
     "genre": "Magical Realism",
     "secondaryGenre": "Family saga",
     "contentWarnings": "",
-    "notes": "The rise and fall of the Buendia famliy in the town of Macondo",
+    "notes": "The story of the Buendía family unfolds alongside the rise and decline of Macondo, a mythical town in South America.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -366,7 +366,7 @@
     "genre": "Literary Fiction",
     "secondaryGenre": "Friendship",
     "contentWarnings": "",
-    "notes": "Two friends navigate their lives through video game design.",
+    "notes": "Childhood friends Sam and Sadie reunite and create a hit video game, beginning a creative partnership shaped by success, ambition and friendship.",
     "status": "read",
     "rating": 3.5,
     "dateRead": "2026-10-29"
@@ -378,7 +378,7 @@
     "genre": "Memoir",
     "secondaryGenre": "War / Political",
     "contentWarnings": "",
-    "notes": "Orwell’s personal account of fighting in the Spanish Civil War.",
+    "notes": "George Orwell recounts fighting with a militia in the Spanish Civil War and witnessing the political conflicts that divided the Republican side.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -1009,12 +1009,12 @@
   },
   {
     "id": "the-turn-of-the-key",
-    "title": "The turn of the key",
+    "title": "The Turn of the Key",
     "author": "Ruth Ware",
     "genre": "Thriller",
     "secondaryGenre": "Gothic suspense",
-    "contentWarnings": "Death,\nChild endangerment",
-    "notes": "The Turn of the Key follows a nanny who accepts a position at a high‑tech, isolated Scottish estate — only to find herself trapped in a house full of secrets, eerie occurrences, and a child she can’t seem to reach. When a death occurs, she becomes the prime suspect, telling her story in a desperate letter from prison.",
+    "contentWarnings": "Child endangerment",
+    "notes": "A nanny takes a job at a high-tech house in the Scottish Highlands, then finds herself in prison awaiting trial for murder.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -1026,7 +1026,7 @@
     "genre": "Gothic",
     "secondaryGenre": "Vampires",
     "contentWarnings": "",
-    "notes": "1872 Gothic novella by Irish author, predating Dracula by 25 years, story of a young woman pursued by the vampire Carmilla",
+    "notes": "In this Gothic novella, a young woman becomes the object of the mysterious Carmilla's attention, unaware that her new companion is a vampire.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -1038,7 +1038,7 @@
     "genre": "Horror",
     "secondaryGenre": "Psychological horror",
     "contentWarnings": "",
-    "notes": "the mental decay of a father in a haunted hotel",
+    "notes": "Jack Torrance takes a winter caretaker job at an isolated hotel, where supernatural forces threaten his family and his son senses its dark past.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -1062,7 +1062,7 @@
     "genre": "Memoir",
     "secondaryGenre": "Inspirational",
     "contentWarnings": "",
-    "notes": "A memoir about escaping a strict household to learn about the wider world through education.",
+    "notes": "Tara Westover recounts growing up in an isolated Idaho family and pursuing an education that takes her from the mountains to Cambridge.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -1086,7 +1086,7 @@
     "genre": "Thriller",
     "secondaryGenre": "Espionage",
     "contentWarnings": "",
-    "notes": "A retired spy is pulled into a global conspiracy.",
+    "notes": "A retired intelligence agent known as Pilgrim is drawn into a murder investigation that leads him towards a far greater international threat.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -1098,7 +1098,7 @@
     "genre": "Contemporary Fiction",
     "secondaryGenre": "Hollywood / Satire",
     "contentWarnings": "",
-    "notes": "A behind-the-scenes look at filmmaking with heart and humour.",
+    "notes": "A comic book inspires a major superhero film, bringing together a colourful cast and crew in a story spanning decades of American life.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -1122,7 +1122,7 @@
     "genre": "Historical Fiction",
     "secondaryGenre": "Literary Fiction",
     "contentWarnings": "Slavery, infanticide, sexual violence, racism",
-    "notes": "A haunting tale of slavery, memory, and motherhood; Pulitzer Prize-winning novel.",
+    "notes": "Sethe, who escaped slavery, tries to build a life with her daughter in Ohio, but the past returns with a mysterious young woman.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -1134,7 +1134,7 @@
     "genre": "Magical Realism",
     "secondaryGenre": "Time Travel",
     "contentWarnings": "",
-    "notes": "In a Tokyo café, customers can travel back in time if they follow specific rules.",
+    "notes": "Four customers visit a Tokyo café where they can travel into the past, provided they return before their coffee has gone cold.",
     "status": "read",
     "rating": 3.75,
     "dateRead": "2026-08-06"
@@ -1158,7 +1158,7 @@
     "genre": "Historical Fiction",
     "secondaryGenre": "War / Coming-of-Age",
     "contentWarnings": "",
-    "notes": "A young woman navigates civil war in Sri Lanka.",
+    "notes": "Sashi dreams of becoming a doctor, but civil war in Sri Lanka draws her brothers into political violence and changes her path.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -1170,7 +1170,7 @@
     "genre": "Historical Fiction",
     "secondaryGenre": "Family Saga",
     "contentWarnings": "",
-    "notes": "Spanning generations from Ghana to America, this novel explores legacy, trauma, and identity.",
+    "notes": "Two half-sisters in Ghana follow very different paths, and their descendants' stories unfold across generations shaped by slavery, separation and its legacy.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
@@ -1179,10 +1179,10 @@
     "id": "shuggie-bain",
     "title": "Shuggie Bain",
     "author": "Douglas Stuart",
-    "genre": "literary fiction",
-    "secondaryGenre": "coming of age",
-    "contentWarnings": "alcholism, abuse",
-    "notes": "A heart-wrenchingly moving novel set in Glasgow during the Thatcher years, Shuggie Bain tells the story of a boy's doomed attempt to save his proud, alcoholic mother from her addiction.",
+    "genre": "Literary Fiction",
+    "secondaryGenre": "Coming of Age",
+    "contentWarnings": "Abuse",
+    "notes": "Growing up in 1980s Glasgow, young Shuggie cares for his mother Agnes as she struggles with addiction and the family faces hardship.",
     "status": "suggested",
     "rating": null,
     "dateRead": null
