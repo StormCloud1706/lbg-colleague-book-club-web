@@ -4,7 +4,7 @@ Each feature gets its own branch as we work through it.
 
 ## Reading list tidy-up
 - [x] Tidy titles, authors, summaries and content warnings.
-- [ ] Standardise genres and check for duplicates.
+- [x] Standardise genres and check for duplicates.
 
 ## Book covers
 - [ ] Choose and connect a book cover API.
